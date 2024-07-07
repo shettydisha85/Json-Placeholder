@@ -172,3 +172,20 @@ $RECYCLE.BIN/
 .idea/
 *.dotsettings
 *.sublime-*
+
+# Additional entries from the conflicting branch
+# Ignore log files
+*.log
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore npm package files
+node_modules/
+
+# Ignore build artifacts
+bin/
+obj/
