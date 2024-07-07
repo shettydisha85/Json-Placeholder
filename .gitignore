@@ -1,0 +1,174 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.ilk
+*.pdb
+*.obj
+*.log
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+
+# Rider
+.idea/
+.idea_modules/
+.idea_modules.xml
+.idea/inspections.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/codeStyleSettings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/scopes
+.idea/runConfigurations
+.idea/modules.xml
+.idea/encodings.xml
+.idea/suggestions.xml
+.idea/sqlDataSources.xml
+.idea/sqldialects.xml
+.idea/datasources.xml
+.idea/datasources.local.xml
+.idea/dataSources/
+.idea/dataSources.local/
+.idea/dataSources-2.0.xml
+.idea/dataSources-2.0/
+.idea/dataSources/
+.idea/dataSources.local/
+.idea/sqlDataSources.xml
+.idea/sqldialects.xml
+.idea/consoles/
+.idea/icon_indexes.xml
+.idea/codeStyles/
+.idea/misc.xml
+.idea/tasks/
+.idea/dictionaries/
+.idea/shelf/
+.idea/workspace.xml
+
+# Visual Studio
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated_Code/
+TestResults/
+build/
+debug/
+Release/
+x64/
+x86/
+[Oo]bj/
+[Bb]in/
+[Ll]og/
+[Tt]emp/
+*.vs/
+.vs/
+
+# Package Management
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Logs
+*.log
+
+# Local history
+.localhistory/
+
+# IDE - Rider
+.idea/
+
+# IDE - VSCode
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+# Ignore node_modules folder for Node.js projects
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore the JetBrains config
+.idea/
+
+# Ignore the Visual Studio Code config
+.vscode/
+
+# Ignore .NET user-generated files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Ignore testing results
+TestResults/
+*.trx
+*.coverage
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Recycle Bin files
+$RECYCLE.BIN/
+
+# Ignore project specific files
+*.project
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.tm_build_errors
+*.tags
+
+# Ignore IDE config files
+.idea/
+*.dotsettings
+*.sublime-*
