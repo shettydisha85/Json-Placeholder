@@ -3,7 +3,7 @@ using System.Net.Http;
 
 namespace JsonPost.Services
 {
-    public class AddJsonPosts : IAddJsonPosts
+    public class JsonPosts : IJsonPosts
     {
         public async Task<IEnumerable<Post>> GetAllPosts()
         {
@@ -30,6 +30,18 @@ namespace JsonPost.Services
                 }
             }
 
+        }
+
+        public async Task<string> GetCatFacts()
+        {
+            using HttpClient client = new HttpClient();
+            {
+                HttpResponseMessage response = await client.GetAsync("https://catfact.ninja/fact");
+                response.EnsureSuccessStatusCode();
+
+                return await response.Content.ReadAsStringAsync();
+            }
+            
         }
     }
 }

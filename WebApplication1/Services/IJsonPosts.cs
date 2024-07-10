@@ -2,8 +2,9 @@
 
 namespace JsonPost.Services
 {
-    public interface IAddJsonPosts
+    public interface IJsonPosts
     {
         Task<IEnumerable<Post>> GetAllPosts();
+        Task<string> GetCatFacts();
     }
 }
